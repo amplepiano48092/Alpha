@@ -1,0 +1,190 @@
+<Regertelas>:
+    Inicial:
+        name: "Sadac"
+    Mapa:
+        name: "Mapa"
+    Sobre:
+        name: "Sobre"
+
+<MeuWidget>:
+    size: 450, 650
+
+<Inicial>:
+    AsyncImage:
+        source: "imagens/ar 1.png"
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20, 20
+        spacing: '30dp'
+        Label:
+            text:'SADAC'
+            color: 0 , 0 , 0 , 1
+            font_size: 50
+            size_hint_y: None
+            height: 1100
+
+    BoxLayout:
+        orientation:'vertical'
+        padding: 20, 20
+        spacing: '30dp'
+
+        Button:
+            text: 'Mapa'
+            color: 0 , 0 , 0 , 1
+            size_hint_y: None
+            height: 50
+            size_hint_x: None
+            width: 80
+            on_release: app.root.current = "Mapa"
+
+        Button:
+            text: 'Sobre'
+            color: 0 , 0 , 0 , 1
+            size_hint_y: None
+            height: 50
+            size_hint_x: None
+            width: 80
+            on_release: app.root.current = "Sobre"
+
+<Mapa>:
+    AsyncImage:
+        source: "imagens/ar 2.png"
+
+    BoxLayout:
+        orientation:'vertical'
+        padding: 20, 20
+        spacing: '30dp'
+        Image:
+            source: "imagens\MapaArboreio.jpeg"
+
+    BoxLayout:
+        orientation:'horizontal'
+        padding: 20, 20
+        spacing: '30dp'
+        size_hint_y: None
+        height: 110
+
+        Button:
+            text: '1'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '2'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '3'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '4'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '5'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+    BoxLayout:
+        orientation:'horizontal'
+        padding: 20, 20
+        spacing: '30dp'
+        size_hint_y: None
+        height: 110
+
+        Button:
+            text: '6'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '7'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '8'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+        Button:
+            text: '9'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '10'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+    BoxLayout:
+        orientation:'horizontal'
+        padding: 20, 20
+        spacing: '30dp'
+        size_hint_y: None
+        height: 110
+
+        Button:
+            text: '11'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '12'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '13'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '14'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+        Button:
+            text: '15'
+            size_hint_y: None
+            height: 5
+            size_hint_x: None
+            width: 5
+
+<Sobre>:
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text: "Bem-vindo ao SADAC, aplicativo do projeto Trilha das Árvores do CTUR, uma ferramenta digital desenvolvida para ampliar o acesso ao conhecimento e promover a valorização da biodiversidade presente no campus. Este aplicativo integra ciência, tecnologia e educação ambiental, oferecendo aos usuários uma experiência interativa, acessível e alinhada às práticas de ensino ao ar livre. Por meio do mapa de distribuição das espécies arbóreas, o usuário pode localizar facilmente cada uma das 15 espécies selecionadas na trilha interpretativa, visualizando sua posição no espaço e explorando informações organizadas de forma intuitiva. O aplicativo também disponibiliza áudios informativos, produzidos com base em princípios da divulgação científica e inspirados na linguagem da audiodescrição. Os conteúdos foram elaborados em formato narrativo, acolhedor e acessível, garantindo que pessoas com diferentes níveis de conhecimento possam compreender e se engajar com as informações apresentadas. Para usuários com deficiência visual, os áudios desempenham um papel fundamental ao possibilitar o acesso pleno à trilha, tornando a experiência verdadeiramente inclusiva. Assim, este aplicativo não é apenas um guia digital: ele se propõe a ser um instrumento de acessibilidade, educação e sensibilização ambiental, estimulando a observação, a percepção e o encantamento pelo mundo vegetal. Explore, descubra e permita-se aprender com as árvores que fazem parte da história e do cotidiano do CTUR."
+            font_size: 14
